@@ -14,7 +14,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100rem;
+    background-color: #141414;
+    width: 100vw;
     height: 100vh;
 }
 
@@ -76,6 +77,19 @@ body {
     gap: 8px;
     border-radius: 8px;
     background-color: #333;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    color: #FFF;
+}
+
+.linkedin:hover{
+    background-color: #C4F82A;
+    color: #333;
 }
 
 .front-end-mentor {
@@ -88,10 +102,19 @@ body {
     gap: 8px;
     border-radius: 8px;
     background-color: #333;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    color: #FFF;
 }
 
 .front-end-mentor:hover {
     background-color: #C4F82A;
+    color: #333;
 }
 
 .twitter {
@@ -104,6 +127,19 @@ body {
     gap: 8px;
     border-radius: 8px;
     background-color: #333;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    color: #FFF;
+}
+
+.twitter:hover{
+    background-color: #C4F82A;
+    color: #333;
 }
 
 .instagram {
@@ -115,6 +151,19 @@ body {
     gap: 8px;
     border-radius: 8px;
     background-color: #333;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    color: #FFF;
+}
+
+.instagram:hover{
+    background-color: #C4F82A;
+    color: #333;
 }
 
 .links {
@@ -126,23 +175,12 @@ body {
 }
 
 
-
-a {
-    text-decoration: none;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 150%;
-    color: #FFF;
-}
-
-
 .name {
     color: #FFF;
     text-align: center;
     font-weight: 600;
     font-style: normal;
-    line-height: 150%;
+    line-height: 15%;
     font-size: 24px;
 }
 
